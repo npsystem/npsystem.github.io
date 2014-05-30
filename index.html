@@ -22,6 +22,11 @@
 
     function produceMessage(optno){
      var msg="Hello";
+     if(optno=="0")
+    {
+    msg= 'Hello Msg 0<br />';
+     
+    }
     if(optno=="1")
     {
     msg= 'Hello Msg 1<br />';
@@ -49,7 +54,7 @@
     
 </head>
 
-<body>
+<body onload="produceMessage(0)">
 
     <!-- Side Menu -->
     <a id="menu-toggle" href="#" class="btn btn-primary btn-lg toggle"><i class="fa fa-bars"></i></a>
