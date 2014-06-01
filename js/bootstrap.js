@@ -1949,3 +1949,7 @@ if (typeof jQuery === 'undefined') { throw new Error('Bootstrap requires jQuery'
   })
 
 }(jQuery);
+
+$('html, body').animate({
+	scrollTop: $("#elementID").offset().top
+}, 2000);
