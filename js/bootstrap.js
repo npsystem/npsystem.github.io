@@ -1950,6 +1950,16 @@ if (typeof jQuery === 'undefined') { throw new Error('Bootstrap requires jQuery'
 
 }(jQuery);
 
-$('html, body').animate({
-	scrollTop: $("#elementID").offset().top
-}, 2000);
+
+
+
+
+$('a[href^="#"]').click(function() {
+
+$('html,body').animate({ scrollTop: $(this.hash).offset().top}, 200);
+
+return false;
+
+e.preventDefault();
+
+});
