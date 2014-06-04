@@ -10,7 +10,7 @@
 	text-align:left; /* reset align=center */
 	font-size: 10px;
 }
-* html #wowslider-container1{ width:800px }
+* html #wowslider-container1{ width:100% }
 #wowslider-container1 .ws_images ul{
 	position:relative;
 	width: 10000%; 
