@@ -6,7 +6,7 @@
 	max-width:100%;
 	margin:0px auto 0px;
 	z-index:90;
-	border:7px solid #01000A;
+	border:7px solid #A32A9F;
 	text-align:left; /* reset align=center */
 	font-size: 10px;
 }
@@ -184,7 +184,7 @@
 }
 #wowslider-container1 .ws-title div,#wowslider-container1 .ws-title span{
 	display:inline-block;
-	background:#01000A;
+	background:#A32A9F;
 	padding:0.4em;
 	opacity:0.8;
 	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=90);
