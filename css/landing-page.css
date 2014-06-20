@@ -30,6 +30,7 @@ body, h1, h2, h3, h4, h5, h6 {
 	background: url(../img/contact-bg.jpg) no-repeat center center;
 	background-size: cover;
 	text-align: center;
+	max-width:100%;
 }
 
 
