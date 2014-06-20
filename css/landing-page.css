@@ -43,7 +43,7 @@ body, h1, h2, h3, h4, h5, h6 {
 .banner-message {
 	position: relative;
 	padding-top: 20%;
-	padding-bottom: 20%;
+	padding-bottom: 50%;
 }
 
 .intro-message > h1 {
