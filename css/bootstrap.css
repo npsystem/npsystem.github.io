@@ -2034,6 +2034,13 @@ fieldset[disabled] .btn {
 }
 
 
+
+
+.btn-default-contact-us-menu {
+  color: #333;
+  background-color: #443266;
+  border-color: #ccc;
+}
 .btn-default-contact-us {
   color: #333;
   background-color: #AD7460;
