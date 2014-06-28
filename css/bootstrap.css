@@ -2032,6 +2032,11 @@ fieldset[disabled] .btn {
           box-shadow: none;
   opacity: .65;
 }
+.btn-default-contact-us {
+  color: #333;
+  background-color: #f00;
+  border-color: #ccc;
+}
 .btn-default {
   color: #333;
   background-color: #fff;
