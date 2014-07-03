@@ -770,57 +770,7 @@ body > div.message > div > div {
 	width:100%;
 	cursor: pointer;
 }
-/*--- message1 ---*/
-.message1 {
-	background: url("../images/banner3.jpg") no-repeat;
-	background-size: 100%;
-	padding: 12% 0;
-	text-align: left;
-}
-.message1 h3{
-	color:#ffffff;
-	font-size:4em;
-	font-weight :400;
-}
-.message1 p{
-	color:#ffffff;
-	font-size:2.5em;
-	font-weight :400;
-}
-/*--- message2 ---*/
-.message2 {
-	background: url("../images/pic.jpg") no-repeat;
-	background-size: 100%;
-	padding: 11% 0;
-	text-align: left;
-}
-.message2 h3{
-	color:#ffffff;
-	font-size:4em;
-	font-weight :400;
-}
-.message2 p{
-	color:#ffffff;
-	font-size:2.5em;
-	font-weight :400;
-}
-/*--- message3 ---*/
-.message3 {
-	background: url("../images/banner4.jpg") no-repeat;
-	background-size: 100%;
-	padding: 11% 0;
-	text-align: left;
-}
-.message3 h3{
-	color:#ffffff;
-	font-size:4em;
-	font-weight :400;
-}
-.message3 p{
-	color:#ffffff;
-	font-size:2.5em;
-	font-weight :400;
-}
+
 /*--- pricing ---*/
 #pricing > div > h3 {
 	color: #fff;
