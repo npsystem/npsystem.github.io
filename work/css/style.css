@@ -346,11 +346,11 @@ body > div.message > div > div {
 	
 }
 #filters li span:hover{
-	background:#EA5A4B;
+	background:#f8f8f8;
 	color:#fff;
 }
 #filters li span.active {
-	background:#EA5A4B;
+	background:#f8f8f8;
 	color:#fff;
 }
 #portfoliolist .portfolio {
@@ -438,7 +438,7 @@ body > div.message > div > div {
 	opacity: 0;
 	filter: alpha(opacity=0);
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=0)";
-	background: rgba(0, 0, 0, 0.61);
+	background: #f8f8f8;
 	-moz-transition: opacity 0.3s linear;
 	-o-transition: opacity 0.3s linear;
 	-ms-transition: opacity 0.3s linear;
