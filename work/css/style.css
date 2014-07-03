@@ -63,7 +63,7 @@ body {
 	margin-right: 10px;
 }
 .menu li.active a,.menu li a:hover{
-	color: #25BEA0;
+	color: #999
 }
 .menu li a{
 	font-size: 0.8725em;
