@@ -67,7 +67,7 @@ body {
 }
 .menu li a{
 	font-size: 0.8725em;
-	color: #ffffff;
+	color: #999;
 	text-transform: uppercase;
 	font-family: 'Roboto', sans-serif;
 	margin:0px 20px;
@@ -93,7 +93,7 @@ body {
 }
 .nav-item a:hover {
 	background: #18BD9B;
-	color: #FFFFFF;
+	color: #999;
 }
 .nav-mobile {
    display: none;
