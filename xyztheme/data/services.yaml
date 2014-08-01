@@ -1,0 +1,32 @@
+
+description: <p> Crowl Ventures operates in two broad areas. (a) Bussiness consulting - encomposing sales consulting, Data analysis, project feasbilities, Opertional efficiences, Processes and workflows  and so on. (b)Online marketing and building online prescnse for brands and individulas, building websites both content and e-commerce, developing content for websites. Deploying and maintining e-mail services and other office applications.</p>
+
+subtitle: nil
+
+services:
+  1:
+    name: Website Development
+    image: /images/crowl/about.jpg
+    description: <p>Develop and maintain websites, both content websites and e-commerce websites. Design, develop and maintain online properties. Crowl Ventures works through the brainstorming phase and carries it right through deployment and beyond. Crowl brings with it experts and professionals who understand the different facets of the online world and consult to help businesses leverage and maximise the potential.</p><p>E-Mail Services</p><p>Crowl provides for deploying and maintaining e-mails services and other basic office applications like Shared Documents, Calendar and so on for your organization.</p> 
+    points: nil	 
+  2:
+    name: Content Development 
+    image: /images/crowl/about.jpg
+    description: <p>Crowl has a team of researchers and proficient content writers who help build on the theme and develop content for your website and marketing collateral. Write content for Brochures, WebPages, Blogs, Articles, write-ups that help index your website better on search engines.</p>
+    points: nil
+  3:
+    name: Online Marketing
+    image: /images/crowl/about.jpg
+    description: <p> Crowl Ventures develop and manage Digital / Online presence for individuals and organisations. Manage and build traffic on content sites and drive sales for e-commerce ventures using various tools and techniques available. Also take on standalone projects and specific assignments on SEO (Search Engine Optimisation), SEM (Search Engine Marketing) and SMM (Social Media Marketing).</p>
+    points: nil
+  4:
+    name: Businsess Consulting & Data Analysis
+    image: /images/crowl/about.jpg
+    description: "<p>Data Analysis</p><p>Crowl Provides Data Analysis across industries, from basic dashboarding to advanced algorithms and machine learning based predictive modelling.</p><p>Feasibility Studies: Conduct feasibility studies to ascertain vaibility of projects based on market analysis, Statutes and Financial projections</p><p>Bussiness and Sales Consulting: Process optimisation, Process workflows, Sales Distrubution Structure, Sales force productivity are among some of the areas Crowl ventures consults and adds value in.</p>"
+    points: nil
+
+    
+    
+      
+  
+      
