@@ -4,6 +4,7 @@ $(document).ready(function() {
 		var buttonCopy = $('#contact-form button').html(),
 			errorMessage = $('#contact-form button').data('error-message'),
 			sendingMessage = $('#contact-form button').data('sending-message'),
+			
 			okMessage = $('#contact-form button').data('ok-message'),
 			hasError = false;
 		
@@ -32,8 +33,8 @@ $(document).ready(function() {
 				$('#contact-form button').html(buttonCopy);
 			},2000);
 		}
-		else {
-			$('#contact-form button').html('<i class="fa fa-spinner fa-spin"></i>'+sendingMessage);
+		else {								//<i class="fa fa-spinner fa-spin"></i>
+			$('#contact-form button').html('<i class="fa fa-check"></i>'+sendingMessage);
 			
 			var formInput = $(this).serialize();
 			$.post($(this).attr('action'),formInput, function(data){
