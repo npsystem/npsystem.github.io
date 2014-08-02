@@ -35,6 +35,12 @@ $(document).ready(function() {
 		}
 		else {								//<i class="fa fa-spinner fa-spin"></i>
 			$('#contact-form button').html('<i class="fa fa-check"></i>'+sendingMessage);
+			//added function
+			setTimeout(function(){
+					$('#contact-form button').html(buttonCopy);
+			},2000);
+			
+			
 			
 			var formInput = $(this).serialize();
 			$.post($(this).attr('action'),formInput, function(data){
