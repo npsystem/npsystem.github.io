@@ -67,6 +67,39 @@
 		<script type="text/javascript" src="data/modernizr.min.js"></script>
 		
 		
+		
+		<script language='JavaScript' type='text/JavaScript'> 
+ // http://html-generator.weebly.com/html-right-click-disable-code.html 
+ var tenth = ''; 
+ 
+ function ninth() { 
+   if (document.all) { 
+     (tenth); 
+     alert("Right Click Disable"); 
+     return false; 
+   } 
+ } 
+ 
+ function twelfth(e) { 
+   if (document.layers || (document.getElementById && !document.all)) { 
+     if (e.which == 2 || e.which == 3) { 
+       (tenth); 
+       return false; 
+     } 
+   } 
+ } 
+ if (document.layers) { 
+   document.captureEvents(Event.MOUSEDOWN); 
+   document.onmousedown = twelfth; 
+ } else { 
+   document.onmouseup = twelfth; 
+   document.oncontextmenu = ninth; 
+ } 
+ 
+ 
+ </script>
+ 
+		
 	</head>
   
 	<body data-spy="scroll" data-target="#main-nav" data-offset="400">
