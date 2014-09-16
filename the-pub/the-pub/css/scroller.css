@@ -1,0 +1,57 @@
+/* initial setup 
+----------------------------------------------------*/
+.nano {
+  position : relative;
+  width    : 100%;
+  height   : 100%;
+  overflow : hidden;
+}
+.nano-content {
+  position      : absolute;
+  overflow-y   : scroll;
+  overflow-x    : hidden;
+  top           : 0;
+  right         : 0;
+  bottom        : 0;
+  left          : 0;
+  width: 294px;
+  padding-right: 20px;
+  
+}
+.nano-content:focus {
+  outline: thin dotted;
+}
+.nano-content::-webkit-scrollbar {
+  visibility: hidden;
+}
+.has-scrollbar .nano-content::-webkit-scrollbar {
+  visibility: visible;
+}
+.nano > .nano-pane {
+  background : #bfd6e8;
+  position   : absolute;
+  width      : 13px;
+  right      : 0;
+  top        : 0;
+  bottom     : 0;
+  visibility : hidden\9; /* Target only IE7 and IE8 with this hack */
+  opacity    : .01; 
+  -webkit-transition    : .2s;
+  -moz-transition       : .2s;
+  -o-transition         : .2s;
+  transition            : .2s;
+  border: none;
+}
+.nano > .nano-pane > .nano-slider {
+  background            : transparent url('../img/nano-scroll.png') 0 0 no-repeat;
+  width                 : 20px;
+  position              : relative;
+  margin                : 0;
+  height: 16px;
+}
+.nano:hover > .nano-pane, .nano-pane.active, .nano-pane.flashed {
+  visibility : visible\9; /* Target only IE7 and IE8 with this hack */
+  opacity    : 0.99;
+}
+
+.nano.scroll.has-scrollbar {overflow:hidden;}
