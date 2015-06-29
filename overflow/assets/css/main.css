@@ -1353,7 +1353,7 @@
 		-webkit-text-stroke: 0.25px;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1,  h3, h4, h5, h6 {
 		font-weight: 400;
 		text-transform: uppercase;
 		line-height: 1.75em;
@@ -1365,8 +1365,8 @@
 	}
 
 	h2 {
-		font-size: 1.25em;
-		letter-spacing: 8px;
+		font-size: 1.75em;
+		letter-spacing: 7px;
 	}
 
 	h3 {
@@ -1927,7 +1927,7 @@
 
 	#header {
 		position: relative;
-		color: #fff;
+		color: #F62578;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		text-align: center;
 		margin: 0;
